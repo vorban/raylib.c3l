@@ -6,9 +6,10 @@
       "dependencies" : [],
       "linked-libraries" : [
           "raylib",
+
+          "gdi32",
           "winmm"
-      ],
-      // "wincrt": "none"
+      ]
     }
   },
   "wincrt": "none"
