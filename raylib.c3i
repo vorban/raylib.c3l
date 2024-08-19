@@ -1,0 +1,4 @@
+module raylib;
+
+extern fn void init_window(CInt width, CInt height, char* title) @extern("InitWindow");
+

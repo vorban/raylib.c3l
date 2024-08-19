@@ -1,0 +1,15 @@
+{
+  "provides" : "raylib",
+  "targets" : {
+    "windows-x64" : {
+      "link-args": [],
+      "dependencies" : [],
+      "linked-libraries" : [
+          "raylib",
+          "winmm"
+      ],
+      // "wincrt": "none"
+    }
+  },
+  "wincrt": "none"
+}
